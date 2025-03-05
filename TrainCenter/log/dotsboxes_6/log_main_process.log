@@ -1,0 +1,116 @@
+Start self-playing and training network!
+Args logs: board_size:[11*11]; load_latest_model:[No]
+
+--------------------- Args ----------------------
+| Iterate numbers:  1000
+| Iterate every  10  games
+|................ Mcts params ................
+| Train layers MCTS simulation times:  2000
+|............. replay_buffer params .............
+| Threshold for N to extract data:  300.0
+| Threshold for N+Q to extract data:  0.8
+| Threshold for replay buffer to delete: 8
+| replay_decay_rate:  0.98
+|................ NetWork params ................
+| learning rate:  0.0003
+| The number of network parameters: 3079578
+| Use GPU train:  Yes
+|................ multiprocess params ................
+| Use Multi Process:  No
+-------------------------------------------------
+
+Checkpoint Directory exists! 
+Listening for Client......
+iter train data received
+
+####################################  IterNum: 1 ####################################
+Find the iter train_data
+Iter training data num : 1872
+-----------self.replay_buffer.merge_data(num_iter)------------
+Training data merge completed.
+Total training data num : 1872
+EPOCH ::: 1
+Start self-playing and training network!
+Args logs: board_size:[11*11]; load_latest_model:[No]
+
+--------------------- Args ----------------------
+| Iterate numbers:  1000
+| Iterate every  10  games
+|................ Mcts params ................
+| Train layers MCTS simulation times:  2000
+|............. replay_buffer params .............
+| Threshold for N to extract data:  300.0
+| Threshold for N+Q to extract data:  0.8
+| Threshold for replay buffer to delete: 8
+| replay_decay_rate:  0.98
+|................ NetWork params ................
+| learning rate:  0.0003
+| The number of network parameters: 3079578
+| Use GPU train:  Yes
+|................ multiprocess params ................
+| Use Multi Process:  No
+-------------------------------------------------
+
+Checkpoint Directory exists! 
+Listening for Client......
+iter train data received
+
+####################################  IterNum: 1 ####################################
+Find the iter train_data
+Iter training data num : 1736
+-----------self.replay_buffer.merge_data(num_iter)------------
+Training data merge completed.
+Total training data num : 1736
+EPOCH ::: 1
+Start self-playing and training network!
+Args logs: board_size:[11*11]; load_latest_model:[No]
+Start self-playing and training network!
+Args logs: board_size:[11*11]; load_latest_model:[No]
+Start self-playing and training network!
+Args logs: board_size:[11*11]; load_latest_model:[No]
+
+--------------------- Args ----------------------
+| Iterate numbers:  1000
+| Iterate every  10  games
+|................ Mcts params ................
+| Train layers MCTS simulation times:  2000
+|............. replay_buffer params .............
+| Threshold for N to extract data:  300.0
+| Threshold for N+Q to extract data:  0.8
+| Threshold for replay buffer to delete: 8
+| replay_decay_rate:  0.98
+|................ NetWork params ................
+| learning rate:  0.0003
+| The number of network parameters: 3079578
+| Use GPU train:  Yes
+|................ multiprocess params ................
+| Use Multi Process:  No
+-------------------------------------------------
+
+Checkpoint Directory exists! 
+Listening for Client......
+Start self-playing and training network!
+Args logs: board_size:[11*11]; load_latest_model:[No]
+Start self-playing and training network!
+Args logs: board_size:[11*11]; load_latest_model:[No]
+
+--------------------- Args ----------------------
+| Iterate numbers:  1000
+| Iterate every  10  games
+|................ Mcts params ................
+| Train layers MCTS simulation times:  2000
+|............. replay_buffer params .............
+| Threshold for N to extract data:  300.0
+| Threshold for N+Q to extract data:  0.8
+| Threshold for replay buffer to delete: 8
+| replay_decay_rate:  0.98
+|................ NetWork params ................
+| learning rate:  0.0003
+| The number of network parameters: 3079578
+| Use GPU train:  Yes
+|................ multiprocess params ................
+| Use Multi Process:  No
+-------------------------------------------------
+
+Checkpoint Directory exists! 
+Listening for Client......

@@ -1,0 +1,327 @@
+Start self-playing and training network!
+Args logs: board_size:[11*11]; load_latest_model:[No]
+
+--------------------- Args ----------------------
+| Iterate numbers:  1000
+| Iterate every  10  games
+| Real move policy :  0.4
+|................ Mcts params ................
+| Train layers MCTS simulation times:  800
+| UCT function parameter Cpuct:  1
+|............. replay_buffer params .............
+| Threshold for replay buffer to delete: 5
+| replay_decay_rate:  0.98
+|................ NetWork params ................
+| load_latest_model:  False
+| learning rate:  0.001
+| The number of network parameters: 3079578
+| Use GPU train:  No
+|................ multiprocess params ................
+| Use Multi Process:  No
+-------------------------------------------------
+
+Checkpoint Directory exists! 
+
+*********************[ Start Computing Thread, data_list length: 0 ]*********************
+
+[Computing Thread]:  Assign tasks
+
+
+[Computing Thread]:  Wait to recover training data ......
+[Computing Thread]:  Got num 1 training data!  Time: 21:18:20
+[Computing Thread]:  Got num 2 training data!  Time: 21:18:39
+[Computing Thread]:  Got num 3 training data!  Time: 21:19:16
+[Computing Thread]:  Got num 4 training data!  Time: 21:19:35
+[Computing Thread]:  Got num 5 training data!  Time: 21:19:40
+[Computing Thread]: Iter: 1 Got all train data from Computing Center, cost: 131.57 s!
+
+*********************[ Start Computing Thread, data_list length: 5 ]*********************
+
+
+*********************[ Start Training Thread, data_list length: 5 ]*********************
+
+RED  win:  25 ;  BLUE  win: 25
+Main Thread: Iter training data num : 1872
+avg_loss: 4.5573
+Q_rate:  0.0
+Main Thread: Iter_Train_Data has been stored to disk!
+[Computing Thread]:  Assign tasks
+
+[Training Thread]: Iter training data has been sent to server, cost: 0.14 s!
+
+[Computing Thread]:  Wait to recover training data ......
+[Computing Thread]:  Got num 1 training data!  Time: 21:21:00
+[Computing Thread]:  Got num 2 training data!  Time: 21:21:03
+[Computing Thread]:  Got num 3 training data!  Time: 21:21:19
+[Computing Thread]:  Got num 4 training data!  Time: 21:21:20
+Start self-playing and training network!
+Args logs: board_size:[11*11]; load_latest_model:[No]
+
+--------------------- Args ----------------------
+| Iterate numbers:  1000
+| Iterate every  10  games
+| Real move policy :  0.4
+|................ Mcts params ................
+| Train layers MCTS simulation times:  800
+| UCT function parameter Cpuct:  1
+|............. replay_buffer params .............
+| Threshold for replay buffer to delete: 5
+| replay_decay_rate:  0.98
+|................ NetWork params ................
+| load_latest_model:  False
+| learning rate:  0.001
+| The number of network parameters: 3079578
+| Use GPU train:  No
+|................ multiprocess params ................
+| Use Multi Process:  No
+-------------------------------------------------
+
+Checkpoint Directory exists! 
+
+*********************[ Start Computing Thread, data_list length: 0 ]*********************
+
+[Computing Thread]:  Assign tasks
+
+
+[Computing Thread]:  Wait to recover training data ......
+[Computing Thread]:  Got num 1 training data!  Time: 21:34:42
+[Computing Thread]:  Got num 2 training data!  Time: 21:34:54
+[Computing Thread]:  Got num 3 training data!  Time: 21:35:16
+[Computing Thread]:  Got num 4 training data!  Time: 21:35:20
+[Computing Thread]:  Got num 5 training data!  Time: 21:35:22
+[Computing Thread]: Iter: 1 Got all train data from Computing Center, cost: 106.57 s!
+
+*********************[ Start Computing Thread, data_list length: 5 ]*********************
+
+
+*********************[ Start Training Thread, data_list length: 5 ]*********************
+
+RED  win:  25 ;  BLUE  win: 25
+Main Thread: Iter training data num : 1736
+avg_loss: 4.5505
+Q_rate:  0.0
+Main Thread: Iter_Train_Data has been stored to disk!
+[Computing Thread]:  Assign tasks
+
+[Training Thread]: Iter training data has been sent to server, cost: 0.14 s!
+
+[Computing Thread]:  Wait to recover training data ......
+[Computing Thread]:  Got num 1 training data!  Time: 21:37:01
+[Computing Thread]: Timeout stop recovering training data: 
+[Computing Thread]: Timeout stop recovering training data: 
+[Computing Thread]: Timeout stop recovering training data: [Errno 32] Broken pipe
+[Computing Thread]: Timeout stop recovering training data: [Errno 32] Broken pipe
+[Computing Thread]: Iter: 1 Got all train data from Computing Center, cost: 154.38 s!
+
+*********************[ Start Computing Thread, data_list length: 1 ]*********************
+
+[Computing Thread]:  Assign tasks
+
+
+[Computing Thread]:  Wait to recover training data ......
+[Computing Thread]:  Got num 1 training data!  Time: 21:40:43
+[Computing Thread]:  Got num 2 training data!  Time: 21:43:09
+[Computing Thread]: Timeout stop recovering training data: 
+[Computing Thread]: Timeout stop recovering training data: 
+[Computing Thread]: Timeout stop recovering training data: [Errno 32] Broken pipe
+[Computing Thread]: Iter: 2 Got all train data from Computing Center, cost: 353.96 s!
+
+*********************[ Start Computing Thread, data_list length: 3 ]*********************
+
+[Computing Thread]:  Assign tasks
+
+
+[Computing Thread]:  Wait to recover training data ......
+[Computing Thread]:  Got num 1 training data!  Time: 21:48:47
+[Computing Thread]:  Got num 2 training data!  Time: 21:49:14
+[Computing Thread]: Timeout stop recovering training data: 
+[Computing Thread]: Timeout stop recovering training data: 
+[Computing Thread]: Timeout stop recovering training data: [Errno 32] Broken pipe
+[Computing Thread]: Iter: 2 Got all train data from Computing Center, cost: 396.96 s!
+
+*********************[ Start Computing Thread, data_list length: 5 ]*********************
+
+Start self-playing and training network!
+Args logs: board_size:[11*11]; load_latest_model:[No]
+
+--------------------- Args ----------------------
+| Iterate numbers:  1000
+| Iterate every  10  games
+| Real move policy :  0.4
+|................ Mcts params ................
+| Train layers MCTS simulation times:  800
+| UCT function parameter Cpuct:  1
+|............. replay_buffer params .............
+| Threshold for replay buffer to delete: 5
+| replay_decay_rate:  0.98
+|................ NetWork params ................
+| load_latest_model:  False
+| learning rate:  0.001
+| The number of network parameters: 3079578
+| Use GPU train:  Yes
+|................ multiprocess params ................
+| Use Multi Process:  No
+-------------------------------------------------
+
+Checkpoint Directory exists! 
+
+*********************[ Start Computing Thread, data_list length: 0 ]*********************
+
+[Computing Thread]:  Assign tasks
+
+
+[Computing Thread]:  Wait to recover training data ......
+Start self-playing and training network!
+Args logs: board_size:[11*11]; load_latest_model:[No]
+
+--------------------- Args ----------------------
+| Iterate numbers:  1000
+| Iterate every  10  games
+| Real move policy :  0.4
+|................ Mcts params ................
+| Train layers MCTS simulation times:  800
+| UCT function parameter Cpuct:  1
+|............. replay_buffer params .............
+| Threshold for replay buffer to delete: 5
+| replay_decay_rate:  0.98
+|................ NetWork params ................
+| load_latest_model:  False
+| learning rate:  0.001
+| The number of network parameters: 3079578
+| Use GPU train:  Yes
+|................ multiprocess params ................
+| Use Multi Process:  No
+-------------------------------------------------
+
+Checkpoint Directory exists! 
+
+*********************[ Start Computing Thread, data_list length: 0 ]*********************
+
+[Computing Thread]:  Assign tasks
+
+
+[Computing Thread]:  Wait to recover training data ......
+Start self-playing and training network!
+Args logs: board_size:[11*11]; load_latest_model:[No]
+
+--------------------- Args ----------------------
+| Iterate numbers:  1000
+| Iterate every  10  games
+| Real move policy :  0.4
+|................ Mcts params ................
+| Train layers MCTS simulation times:  800
+| UCT function parameter Cpuct:  1
+|............. replay_buffer params .............
+| Threshold for replay buffer to delete: 5
+| replay_decay_rate:  0.98
+|................ NetWork params ................
+| load_latest_model:  False
+| learning rate:  0.001
+| The number of network parameters: 3079578
+| Use GPU train:  Yes
+|................ multiprocess params ................
+| Use Multi Process:  No
+-------------------------------------------------
+
+Checkpoint Directory exists! 
+
+*********************[ Start Computing Thread, data_list length: 0 ]*********************
+
+[Computing Thread]:  Assign tasks
+
+
+[Computing Thread]:  Wait to recover training data ......
+Start self-playing and training network!
+Args logs: board_size:[11*11]; load_latest_model:[No]
+
+--------------------- Args ----------------------
+| Iterate numbers:  1000
+| Iterate every  10  games
+| Real move policy :  0.4
+|................ Mcts params ................
+| Train layers MCTS simulation times:  800
+| UCT function parameter Cpuct:  1
+|............. replay_buffer params .............
+| Threshold for replay buffer to delete: 5
+| replay_decay_rate:  0.98
+|................ NetWork params ................
+| load_latest_model:  False
+| learning rate:  0.001
+| The number of network parameters: 3079578
+| Use GPU train:  Yes
+|................ multiprocess params ................
+| Use Multi Process:  No
+-------------------------------------------------
+
+Checkpoint Directory exists! 
+
+*********************[ Start Computing Thread, data_list length: 0 ]*********************
+
+[Computing Thread]:  Assign tasks
+
+
+[Computing Thread]:  Wait to recover training data ......
+[Computing Thread]:  Got num 1 training data!  Time: 20:41:57
+[Computing Thread]:  Got num 2 training data!  Time: 20:42:06
+[Computing Thread]:  Got num 3 training data!  Time: 20:42:18
+[Computing Thread]:  Got num 4 training data!  Time: 20:42:29
+Start self-playing and training network!
+Args logs: board_size:[11*11]; load_latest_model:[No]
+
+--------------------- Args ----------------------
+| Iterate numbers:  1000
+| Iterate every  10  games
+| Real move policy :  0.4
+|................ Mcts params ................
+| Train layers MCTS simulation times:  800
+| UCT function parameter Cpuct:  1
+|............. replay_buffer params .............
+| Threshold for replay buffer to delete: 5
+| replay_decay_rate:  0.98
+|................ NetWork params ................
+| load_latest_model:  False
+| learning rate:  0.001
+| The number of network parameters: 3079578
+| Use GPU train:  Yes
+|................ multiprocess params ................
+| Use Multi Process:  No
+-------------------------------------------------
+
+Checkpoint Directory exists! 
+
+*********************[ Start Computing Thread, data_list length: 0 ]*********************
+
+[Computing Thread]:  Assign tasks
+
+
+[Computing Thread]:  Wait to recover training data ......
+Start self-playing and training network!
+Args logs: board_size:[11*11]; load_latest_model:[No]
+
+--------------------- Args ----------------------
+| Iterate numbers:  1000
+| Iterate every  10  games
+| Real move policy :  0.4
+|................ Mcts params ................
+| Train layers MCTS simulation times:  800
+| UCT function parameter Cpuct:  1
+|............. replay_buffer params .............
+| Threshold for replay buffer to delete: 5
+| replay_decay_rate:  0.98
+|................ NetWork params ................
+| load_latest_model:  False
+| learning rate:  0.001
+| The number of network parameters: 3079578
+| Use GPU train:  Yes
+|................ multiprocess params ................
+| Use Multi Process:  No
+-------------------------------------------------
+
+Checkpoint Directory exists! 
+
+*********************[ Start Computing Thread, data_list length: 0 ]*********************
+
+[Computing Thread]:  Assign tasks
+
+
+[Computing Thread]:  Wait to recover training data ......
